@@ -48,7 +48,7 @@ export function MotionField() {
     };
     resize();
     const trigger = ScrollTrigger.create({
-      trigger: "#nx2-motion-story",
+      trigger: "#nx3-dispatch",
       start: "top bottom",
       end: "bottom top",
       onUpdate: (self) => {

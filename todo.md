@@ -19,3 +19,7 @@
 - [x] Create the factually accurate bento-grid scrollytelling narrative.
 - [x] Add GSAP ScrollTrigger, controlled parallax, and a lightweight Three.js visual field.
 - [x] Validate scroll motion, mobile behavior, visual transitions, and content accuracy before release.
+- [x] Identify and remove the remaining generic or low-impact visual decisions.
+- [x] Define a more singular flagship composition and cinematic motion language.
+- [x] Deepen the hero visual field and rebuild the core scroll chapters with greater art direction.
+- [x] Validate the flagship desktop and mobile result, then save the upgraded checkpoint.
