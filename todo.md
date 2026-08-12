@@ -12,3 +12,5 @@
 - [x] Re-token the Neutral interface to match the attached design system.
 - [x] Replace generated logo usage with a repository-ready placeholder asset contract.
 - [x] Verify the corrected visual system at desktop and mobile widths, then save a new checkpoint.
+- [x] Increase Periwinkle and Lavender saturation and surface coverage across the dark system.
+- [x] Verify the richer purple treatment at desktop and mobile widths, then save an updated checkpoint.

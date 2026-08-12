@@ -84,3 +84,7 @@ The existing Neutral mark remains the anchor. In the refreshed system it is trea
 ## Attached design-system override
 
 The attached `design-system.html` is now the **authoritative visual contract**. Its palette replaces the previous Signal Teal direction: light surfaces use **Warm Ivory** (`#F0F0EA`), **Soft Surface** (`#E6E6DF`), **Soft Border** (`#DBDBD2`), **Ink** (`#1E2233`), **Muted Periwinkle** (`#6B7299`), and **Neutral Accent** (`#4B548B`). Dark scenes use **Night Ink** (`#12141C`), **Dark Surface** (`#1B1E2C`), **Dark Border** (`#2A2D3D`), **Warm Ivory** (`#F0F0EA`), **Lavender** (`#9FA5C8`), and **Light Accent** (`#8890C4`). Typography remains Bricolage Grotesque for display, DM Sans for UI and reading, and a monospace utility face. Generated logo art is retired: the interface now exposes a neutral logo placeholder slot designed to be replaced by the repository’s own file.
+
+### Purple-forward distribution
+
+The dark architecture now visibly leads with the supplied Periwinkle family rather than merely using it as a tiny interaction accent. **Deep Periwinkle** (`#4B548B`) becomes the hero’s atmospheric field and the large chapter-surface tone; **Lavender** (`#9FA5C8`) drives active routes, node halos, and primary actions; **Light Accent** (`#8890C4`) carries signal lines and controls; and **Muted Periwinkle** (`#6B7299`) remains reserved for secondary labels. Warm Ivory keeps the light chapters grounded, so the increased purple feels intentional rather than generic neon.
