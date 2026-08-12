@@ -101,3 +101,13 @@ The dark architecture now visibly leads with the supplied Periwinkle family rath
 - The **Neutral wordmark and repository mark** are primary first-viewport anchors. A repeatable factual token system—`LIVE`, `LOCAL`, `CHOICE`, and `NEXT`—will replace generic section labels.
 - Light-surface capability content will become evidence-led rather than a generic bento grid. It will expose model-route records, permission receipts, memory limits, and platform coverage in a deliberately asymmetric operating board.
 - Headline scale will alternate between cinematic display moments and denser operational typography, so the page reads as a product system unfolding rather than one repeated poster treatment.
+
+## Multi-page Signal Atlas architecture
+
+**Homepage — Signal Atlas.** The cinematic entry point keeps the intent-to-result map and makes its first task emotional clarity: Neutral is the harness that lets people choose their AI path. It will be the only page with a large spatial constellation and long-form scroll choreography.
+
+**About — The control thesis.** This is an editorial, light-to-night manifesto. It explains the project’s mission: make model choices, permission boundaries, and local paths intelligible rather than invisible. It avoids invented founder history and substantiates trust through source availability, native platform commitment, and transparent product boundaries.
+
+**Products — The operating board.** This page is a more exact, asymmetric product inventory. It is structured around what the current app connects to, what can happen on Apple platforms today, and what is explicitly in-progress. Each capability uses evidence-oriented record design rather than generic feature cards.
+
+**Contact — The open channel.** This page treats support as a routing interface, not a fake office directory. A frictionless client-side form prepares a support brief, while the confirmed GitHub Issues and Discussions channels anchor actual contact. Unverified email, phone, and physical-location claims are excluded.

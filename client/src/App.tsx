@@ -6,11 +6,16 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
+import { AboutPage, ContactPage, ProductsPage } from "./components/CorePages";
+import { PreviewHeader } from "./components/PreviewHeader";
 
 function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
+      <Route path="/about" component={AboutPage} />
+      <Route path="/products" component={ProductsPage} />
+      <Route path="/contact" component={ContactPage} />
       <Route component={NotFound} />
     </Switch>
   );
@@ -22,6 +27,7 @@ export default function App() {
       <ThemeProvider defaultTheme="dark">
         <TooltipProvider>
           <Toaster />
+          <PreviewHeader />
           <Router />
         </TooltipProvider>
       </ThemeProvider>
