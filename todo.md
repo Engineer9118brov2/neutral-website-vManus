@@ -14,3 +14,8 @@
 - [x] Verify the corrected visual system at desktop and mobile widths, then save a new checkpoint.
 - [x] Increase Periwinkle and Lavender saturation and surface coverage across the dark system.
 - [x] Verify the richer purple treatment at desktop and mobile widths, then save an updated checkpoint.
+- [x] Audit repository documentation and extract only confirmed Neutral product facts.
+- [x] Identify and remove the broken cross-section boxes and glow artifacts.
+- [x] Create the factually accurate bento-grid scrollytelling narrative.
+- [x] Add GSAP ScrollTrigger, controlled parallax, and a lightweight Three.js visual field.
+- [x] Validate scroll motion, mobile behavior, visual transitions, and content accuracy before release.
