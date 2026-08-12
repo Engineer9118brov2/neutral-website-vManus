@@ -11,7 +11,13 @@ export function MotionField() {
     const canvas = canvasRef.current;
     if (!canvas || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     gsap.registerPlugin(ScrollTrigger);
-    const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: false, powerPreference: "low-power" });
+    let renderer: THREE.WebGLRenderer;
+    try {
+      renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: false, powerPreference: 'low-power' });
+    } catch {
+      canvas.style.display = "none";
+      return;
+    }
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(38, 1, 0.1, 100);
     const field = new THREE.Group();
@@ -71,5 +77,5 @@ export function MotionField() {
     };
   }, []);
 
-  return <canvas ref={canvasRef} className="nx2-motion-field" aria-hidden="true" />;
+  return <canvas ref={canvasRef} className="nx3-motion-field" aria-hidden="true" />;
 }

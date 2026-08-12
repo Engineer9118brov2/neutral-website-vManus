@@ -27,3 +27,10 @@
 - [x] Define the Home, About, Products, and Contact page roles within the Signal Atlas system.
 - [x] Build cohesive responsive routes and navigation for the complete Neutral website.
 - [x] Review desktop and mobile flows across every page, then save the expanded website checkpoint.
+- [x] Inspect every live route at desktop and mobile breakpoints for visual and responsive flaws.
+- [x] Audit implementation-level accessibility, interaction, performance, and factual-content risks.
+- [x] Deliver a prioritized, actionable flaw report before making additional design changes.
+- [x] Fix the production build blocker and reconcile header, footer, and CTA routes around a canonical site architecture.
+- [x] Replace generic evidence placeholders and give About, Products, and Contact distinct page-specific visual devices.
+- [x] Improve mobile navigation, contact handoff clarity, metadata, semantic route narration, and WebGL fallback behavior.
+- [x] Run build, desktop, mobile, and interaction verification loops; remediate any issues found.
