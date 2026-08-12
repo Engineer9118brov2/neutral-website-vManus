@@ -19,11 +19,11 @@ const roadmap = [
 
 function SignalMark({ large = false }: { large?: boolean }) {
   return (
-    <img
+    <span
       className={large ? "signal-mark signal-mark-large" : "signal-mark"}
-      src="/manus-storage/neutral-signal-mark_3b31cc5f.png"
-      alt="Neutral signal mark"
-    />
+      aria-label="Neutral logo placeholder"
+      data-logo-slot="replace-with-repository-logo-file"
+    ><i /></span>
   );
 }
 

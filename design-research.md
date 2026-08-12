@@ -23,3 +23,7 @@ The current baseline is technically sound: it uses a responsive header, mobile d
 ## Live implementation review
 
 The first rendered pass has achieved the intended change in visual hierarchy: the signature hero is now a readable orchestration field rather than a generic dark banner, and the surrounding chapters distinguish continuity, control, current functionality, and roadmap. The central diagram remains legible while supporting a large asymmetrical thesis headline. Before release, the generated assets must use public project-storage URLs when referenced in the independent Next.js repository preview; project-relative `/manus-storage/` URLs are correct within the managed web project but are not served by the repository’s separate local server.
+
+## User-supplied design-system correction
+
+The attached design-system HTML supersedes the prior exploratory palette. Its enduring contract is a warm ivory and periwinkle system: `#F0F0EA` background, `#E6E6DF` surface, `#DBDBD2` borders, `#1E2233` ink, `#6B7299` secondary text, and `#4B548B` accent for light contexts; `#12141C` background, `#1B1E2C` surface, `#2A2D3D` borders, `#F0F0EA` text, `#9FA5C8` secondary text, and `#8890C4` accent for dark contexts. Bricolage Grotesque, DM Sans, and a mono utility role are retained. The generated logo will be replaced by a neutral visual placeholder so the GitHub-managed brand asset has a clear insertion point.
