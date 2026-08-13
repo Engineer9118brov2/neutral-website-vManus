@@ -34,3 +34,6 @@
 - [x] Replace generic evidence placeholders and give About, Products, and Contact distinct page-specific visual devices.
 - [x] Improve mobile navigation, contact handoff clarity, metadata, semantic route narration, and WebGL fallback behavior.
 - [x] Run build, desktop, mobile, and interaction verification loops; remediate any issues found.
+- [x] Inspect every core route at desktop and mobile target sizes for duplicated, clipped, overlapping, or inconsistent visual elements.
+- [x] Remove the duplicate identity/title treatment and fix all high-impact visual defects found in the first audit pass.
+- [x] Run a second responsive visual QA pass and correct any defects it surfaces before release.

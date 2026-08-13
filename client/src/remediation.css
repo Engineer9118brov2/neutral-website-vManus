@@ -2,7 +2,7 @@
 .sp-menu { display: none; border: 0; color: inherit; background: transparent; font-family: var(--mono); font-size: .58rem; letter-spacing: .08em; text-transform: uppercase; }
 .sp-motion { min-height: 34px; border: 1px solid rgba(217,220,237,.38); border-radius: 5px; color: inherit; background: transparent; font-family: var(--mono); font-size: .54rem; letter-spacing: .06em; text-transform: uppercase; }
 .nx3-sr-route { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
+.nx3-hero .nx3-brand-lockup { display: none; }
 html[data-motion='reduced'] .nx3-motion-field { display: none !important; }
 html[data-motion='reduced'] *, html[data-motion='reduced'] *::before, html[data-motion='reduced'] *::after { scroll-behavior: auto !important; animation: none !important; transition: none !important; }
 @media (max-width: 620px) { .sp-nav { flex-wrap: wrap; gap: .7rem; }.sp-menu { display: inline-flex; align-items: center; min-height: 36px; margin-left: auto; }.sp-nav .sp-nav-cta { display: none; }.sp-nav nav { display: none; order: 4; width: 100%; padding: .55rem; border: 1px solid rgba(217,220,237,.2); border-radius: 7px; background: rgba(25,29,52,.86); }.sp-nav nav.isOpen { display: grid; grid-template-columns: repeat(2,1fr); }.sp-nav nav a { min-height: 39px; display: flex; align-items: center; padding-left: .65rem; } }
-@media (max-width: 620px) { .nx3-brand-lockup { display: none; } }
